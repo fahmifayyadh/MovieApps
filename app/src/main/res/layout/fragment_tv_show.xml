@@ -5,10 +5,12 @@
     android:layout_height="match_parent"
     tools:context=".TvShowFragment">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/rv_category"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:listitem="@layout/tv_show_list"/>
+
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/rv_tvshow"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       tools:listitem="@layout/tvshow_list"
+       />
 
 </FrameLayout>

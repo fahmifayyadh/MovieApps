@@ -18,7 +18,7 @@
         android:layout_marginVertical="@dimen/activity_vertical_margin">
 
         <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/img_Foto"
+            android:id="@+id/phototv"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_marginRight="@dimen/activity_vertical_margin"
@@ -29,12 +29,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_toEndOf="@id/img_Foto"
-            android:layout_toRightOf="@id/img_Foto"
+            android:layout_toEndOf="@id/phototv"
+            android:layout_toRightOf="@id/phototv"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/tv_Judulx"
+                android:id="@+id/judultv"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
@@ -45,7 +45,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_genre"
+                android:id="@+id/genretv"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/genre" />

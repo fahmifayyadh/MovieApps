@@ -6,32 +6,31 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class DetailTvShowActivity extends AppCompatActivity {
-    public static final String TV = "DetailTv";
-    TextView judul,date,direktor,top,rate, genre, sinopsis;
-    ImageView photo;
-
+    public static final String tvs ="Movie";
+    TextView judulTv, genreTv, sinopsisTv, directorTv, topTv, rateTv, dateTv;
+    ImageView photoTv;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_tv_show);
-        judul=findViewById(R.id.tv_Judulx);
-        date=findViewById(R.id.tv_date);
-        direktor=findViewById(R.id.tv_director);
-        top=findViewById(R.id.tv_top);
-        rate=findViewById(R.id.tv_rate);
-        genre = findViewById(R.id.tv_genre);
-        sinopsis = findViewById(R.id.tv_sinopsis);
-        photo=findViewById(R.id.img_Foto);
+        judulTv=findViewById(R.id.judultv);
+        genreTv=findViewById(R.id.genretv);
+        sinopsisTv=findViewById(R.id.sinopsistv);
+        directorTv=findViewById(R.id.directortv);
+        topTv=findViewById(R.id.toptv);
+        rateTv=findViewById(R.id.ratetv);
+        dateTv=findViewById(R.id.datetv);
+        photoTv=findViewById(R.id.phototv);
 
+        TvData tv = getIntent().getParcelableExtra(tvs);
+        judulTv.setText(tv.getJudulTv());
+        genreTv.setText(tv.getGenreTv());
+        sinopsisTv.setText(tv.getSinopsisTv());
+        directorTv.setText(tv.getDirectorTv());
+        topTv.setText(tv.getTopTv());
+        rateTv.setText(tv.getRateTv());
+        dateTv.setText(tv.getDateTv());
+        photoTv.setImageResource(tv.getPhotoTv());
 
-        TvData tv= getIntent().getParcelableExtra(TV);
-        judul.setText(tv.getJudulTv());
-        date.setText(tv.getDateTv());
-        direktor.setText(tv.getDirectorTv());
-        top.setText(tv.getTopTv());
-        rate.setText(tv.getRateTv());
-        genre.setText(tv.getGenreTv());
-        sinopsis.setText(tv.getSinopsisTv());
-        photo.setImageResource(tv.getPhotoTv());
     }
 }

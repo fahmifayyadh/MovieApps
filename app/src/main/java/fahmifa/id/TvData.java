@@ -4,10 +4,15 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 public class TvData implements Parcelable {
-    private String judulTv, sinopsisTv, dateTv, directorTv, topTv, rateTv, genreTv;
+    private String judulTv, genreTv, sinopsisTv, directorTv, topTv, rateTv, dateTv;
+    private int photoTv;
 
     public String getJudulTv() {
         return judulTv;
+    }
+
+    public void setJudulTv(String judulTv) {
+        this.judulTv = judulTv;
     }
 
     public String getGenreTv() {
@@ -18,24 +23,12 @@ public class TvData implements Parcelable {
         this.genreTv = genreTv;
     }
 
-    public void setJudulTv(String judulTv) {
-        this.judulTv = judulTv;
-    }
-
     public String getSinopsisTv() {
         return sinopsisTv;
     }
 
     public void setSinopsisTv(String sinopsisTv) {
         this.sinopsisTv = sinopsisTv;
-    }
-
-    public String getDateTv() {
-        return dateTv;
-    }
-
-    public void setDateTv(String dateTv) {
-        this.dateTv = dateTv;
     }
 
     public String getDirectorTv() {
@@ -62,28 +55,19 @@ public class TvData implements Parcelable {
         this.rateTv = rateTv;
     }
 
+    public String getDateTv() {
+        return dateTv;
+    }
+
+    public void setDateTv(String dateTv) {
+        this.dateTv = dateTv;
+    }
+
     public int getPhotoTv() {
         return photoTv;
     }
 
     public void setPhotoTv(int photoTv) {
-        this.photoTv = photoTv;
-    }
-
-    private int photoTv;
-
-    public TvData(){
-
-    }
-
-
-    public TvData(String judulTv, String sinopsisTv,String dateTv, String directorTv, String topTv, String rateTv, int photoTv) {
-        this.judulTv = judulTv;
-        this.sinopsisTv = sinopsisTv;
-        this.dateTv = dateTv;
-        this.directorTv = directorTv;
-        this.topTv = topTv;
-        this.rateTv = rateTv;
         this.photoTv = photoTv;
     }
 
@@ -95,27 +79,30 @@ public class TvData implements Parcelable {
     @Override
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeString(this.judulTv);
+        dest.writeString(this.genreTv);
         dest.writeString(this.sinopsisTv);
-        dest.writeString(this.dateTv);
         dest.writeString(this.directorTv);
         dest.writeString(this.topTv);
         dest.writeString(this.rateTv);
-        dest.writeString(this.genreTv);
+        dest.writeString(this.dateTv);
         dest.writeInt(this.photoTv);
+    }
+
+    public TvData() {
     }
 
     protected TvData(Parcel in) {
         this.judulTv = in.readString();
+        this.genreTv = in.readString();
         this.sinopsisTv = in.readString();
-        this.dateTv = in.readString();
         this.directorTv = in.readString();
         this.topTv = in.readString();
         this.rateTv = in.readString();
-        this.genreTv = in.readString();
+        this.dateTv = in.readString();
         this.photoTv = in.readInt();
     }
 
-    public static final Creator<TvData> CREATOR = new Parcelable.Creator<TvData>() {
+    public static final Parcelable.Creator<TvData> CREATOR = new Parcelable.Creator<TvData>() {
         @Override
         public TvData createFromParcel(Parcel source) {
             return new TvData(source);
