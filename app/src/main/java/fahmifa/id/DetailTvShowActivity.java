@@ -6,7 +6,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class DetailTvShowActivity extends AppCompatActivity {
-    public static final String tvs ="Movie";
+    public static final String tvss ="Movie";
     TextView judulTv, genreTv, sinopsisTv, directorTv, topTv, rateTv, dateTv;
     ImageView photoTv;
     @Override
@@ -22,7 +22,7 @@ public class DetailTvShowActivity extends AppCompatActivity {
         dateTv=findViewById(R.id.datetv);
         photoTv=findViewById(R.id.phototv);
 
-        TvData tv = getIntent().getParcelableExtra(tvs);
+        TvData tv = getIntent().getParcelableExtra(tvss);
         judulTv.setText(tv.getJudulTv());
         genreTv.setText(tv.getGenreTv());
         sinopsisTv.setText(tv.getSinopsisTv());

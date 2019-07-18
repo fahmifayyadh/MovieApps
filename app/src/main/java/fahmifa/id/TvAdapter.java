@@ -12,42 +12,44 @@ import android.widget.TextView;
 import java.util.List;
 
 public class TvAdapter extends RecyclerView.Adapter<TvAdapter.MyViewHolder> {
-    private Context context;
-    private List<TvData>tvs;
 
-    TvAdapter(Context context, List<TvData>tvs){
-        this.context=context;
-        this.tvs=tvs;
+    private Context context;
+    private List<TvData> tv;
+
+    TvAdapter(Context context, List<TvData> tv) {
+        this.context = context;
+        this.tv= tv;
     }
 
     @NonNull
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
-        View view = LayoutInflater.from(context).inflate(R.layout.tvshow_list, viewGroup ,false);
+        View view = LayoutInflater.from(context).inflate(R.layout.tvshow_list, viewGroup, false);
+
         return new MyViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder myViewHolder, int i) {
-        myViewHolder.judul.setText(tvs.get(i).getJudulTv());
-        myViewHolder.genre.setText(tvs.get(i).getGenreTv());
-        myViewHolder.photo.setImageResource(tvs.get(i).getPhotoTv());
-
+        myViewHolder.title.setText(tv.get(i).getJudulTv());
+        myViewHolder.genre.setText(tv.get(i).getGenreTv());
+        myViewHolder.poster.setImageResource(tv.get(i).getPhotoTv());
     }
 
     @Override
     public int getItemCount() {
-        return tvs.size();
+        return tv.size();
     }
 
-    public class MyViewHolder extends RecyclerView.ViewHolder {
-        private TextView judul, genre;
-        private ImageView photo;
-        public MyViewHolder(@NonNull View itemView) {
+    class MyViewHolder extends RecyclerView.ViewHolder {
+        private TextView title,genre;
+        private ImageView poster;
+        MyViewHolder(@NonNull View itemView) {
             super(itemView);
-            judul=itemView.findViewById(R.id.judultv);
-            genre=itemView.findViewById(R.id.genretv);
-            photo=itemView.findViewById(R.id.phototv);
+            title= itemView.findViewById(R.id.judultv);
+            genre= itemView.findViewById(R.id.genretv);
+            poster= itemView.findViewById(R.id.phototv);
+
         }
     }
 }

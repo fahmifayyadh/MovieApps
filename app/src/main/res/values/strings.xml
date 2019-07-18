@@ -3,15 +3,15 @@
     <string name="movies">Movies</string>
     <string name="tvshow">TV show</string>
     <string name="poster">poster</string>
-    <string name="judul">judul</string>
+    <string name="judul">Title</string>
     <string name="director">director</string>
     <string name="top">Top</string>
     <string name="genre">Genre</string>
-    <string name="kosong">tidak diketahui</string>
+    <string name="kosong">not yet</string>
     <string name="rate">Rate</string>
-    <string name="tanggal_tanyang">Tanggal tanyang</string>
-    <string name="date">Tanggal</string>
-    <string name="sinopsis">Sinopsis</string>
+    <string name="tanggal_tanyang">Date Lauching</string>
+    <string name="date">Date</string>
+    <string name="sinopsis">Synopsis</string>
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</string>
     <string name="setting">Setting</string>
 
@@ -380,5 +380,6 @@
     </array>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="ubah_bahasa">Ubah bahasa</string>
+    <string name="ubah_bahasa">Change Language</string>
+    <string name="textview">TextView</string>
 </resources>

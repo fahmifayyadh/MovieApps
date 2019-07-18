@@ -12,7 +12,7 @@ import android.widget.Button;
 
 
 public class SettingFragment extends Fragment {
-    Button setting;
+    Button coba;
     View view;
     public SettingFragment() {
         // Required empty public constructor
@@ -28,8 +28,8 @@ public class SettingFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         view=inflater.inflate(R.layout.fragment_setting, container, false);
-        setting= view.findViewById(R.id.btn_setting);
-        setting.setOnClickListener(new View.OnClickListener() {
+        coba= view.findViewById(R.id.btn_setting);
+        coba.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent mIntent = new Intent(Settings.ACTION_LOCALE_SETTINGS);

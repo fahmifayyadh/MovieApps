@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">MyMovieV2</string>
+    <string name="movies">Film</string>
+    <string name="tvshow">Acara Tv</string>
+    <string name="poster">poster</string>
+    <string name="judul">judul</string>
+    <string name="director">direktur</string>
+    <string name="top">Pemeran</string>
+    <string name="genre">Aliran</string>
+    <string name="kosong">tidak diketahui</string>
+    <string name="rate">Nilai</string>
+    <string name="tanggal_tanyang">Tanggal tanyang</string>
+    <string name="date">Tanggal</string>
+    <string name="sinopsis">Sinopsis</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</string>
+    <string name="setting">Pengaturan</string>
+
+    <string-array name="Judul">
+        <item>Aquaman</item>
+        <item>A Star Is Born</item>
+        <item>Avenger Infinity War</item>
+        <item>Bird Box</item>
+        <item>Bohemian Rhapsody</item>
+        <item>Bumblebee</item>
+        <item>Creed II</item>
+        <item>Once Upon a Deadpool</item>
+        <item>How to Train Your Dragon : Hidden World</item>
+        <item>Dragon Ball Super: Broly</item>
+        <item>Glass</item>
+        <item>Hunter Killer</item>
+        <item>Mary Poppins Returns</item>
+        <item>Mortal Engines</item>
+        <item>Preman Pensiun</item>
+        <item>Robin Hood</item>
+        <item>Spider-Man: Into the Spider-Verse</item>
+        <item>The Girl in the Spiders Web</item>
+        <item>The Mule</item>
+        <item>Venom</item>
+    </string-array>
+
+    <string-array name="Rate">
+        <item>68%</item>
+        <item>75%</item>
+        <item>83%</item>
+        <item>70%</item>
+        <item>81%</item>
+        <item>65%</item>
+        <item>76%</item>
+        <item>65%</item>
+        <item>76%</item>
+        <item>74%</item>
+        <item>65%</item>
+        <item>63%</item>
+        <item>66%</item>
+        <item>60%</item>
+        <item>66%</item>
+        <item>58%</item>
+        <item>84%</item>
+        <item>60%</item>
+        <item>65%</item>
+        <item>66%</item>
+    </string-array>
+
+    <string-array name="Genre">
+                
+        <item> Fantasi </item>
+                
+        <item> Drama / Romantis </item>
+                
+        <item> Fantasi </item>
+                
+        <item> Drama Thriller </item>
+                
+        <item> Biografi </item>
+                
+        <item> Petualangan </item>
+                
+        <item> Drama Sport </item>
+                
+        <item> Fantasi </item>
+                
+        <item> Petualangan </item>
+                
+        <item> Petualangan </item>
+                
+        <item> Misteri </item>
+                
+        <item> Thriller </item>
+                
+        <item> Petualangan </item>
+                
+        <item> sci-fi </item>
+                
+        <item> Sinetron </item>
+                
+        <item> Laga </item>
+                
+        <item> Fantasi </item>
+                
+        <item> Drama </item>
+                
+        <item> Misteri </item>
+                
+        <item> Fantasi </item>
+            
+    </string-array>
+
+    <string-array name="Date">
+                
+        <item> 7 Desember 2018 </item>
+                
+        <item> 3 Oktober 2018 </item>
+                
+        <item> 27 April 2018 </item>
+                
+        <item> 13 Desember 2018 </item>
+                
+        <item> 24 Oktober 2018 </item>
+                
+        <item> 15 Desember 2018 </item>
+                
+        <item> 21 November 2018 </item>
+                
+        <item> 11 Desember 2018 </item>
+                
+        <item> 3 Januari 2019 </item>
+                
+        <item> 14 Desember 2018 </item>
+                
+        <item> 16 Januari 2019 </item>
+                
+        <item> 19 Oktober 2018 </item>
+                
+        <item> 13 Desember 2018 </item>
+                
+        <item> 27 November 201 </item>
+                
+        <item> 17 Januari 2019 </item>
+                
+        <item> 20 November 2018 </item>
+                
+        <item> 6 Desember 2018 </item>
+                
+        <item> 25 Oktober 2018 </item>
+                
+        <item> 14 Desember 2018 </item>
+                
+        <item> 28 September 2018 </item>
+            
+    </string-array>
+
+    <string-array name="Sinopsis">
+        <item> Dulunya merupakan rumah bagi peradaban paling maju di Bumi, Atlantis sekarang merupakan kerajaan bawah laut yang diperintah oleh Raja Orm yang haus kekuasaan. Dengan pasukan yang sangat besar, Orm berencana untuk menaklukkan orang-orang samudera yang tersisa dan kemudian ke permukaan dunia. Yang menghalangi jalannya adalah Arthur Curry, lelaki setengah manusia Orms, setengah lelaki Atlantis dan pewaris sejati takhta. </item>
+        <item> Musisi kawakan Jackson Maine menemukan - dan jatuh cinta dengan - artis yang sedang berjuang Ally. Dia baru saja menyerah pada mimpinya untuk menjadi besar sebagai penyanyi - sampai Jack membujuknya menjadi sorotan. Tetapi bahkan ketika karier Allys lepas landas, sisi pribadi dari hubungan mereka hancur, karena Jack berjuang terus-menerus dengan setan internalnya sendiri. </item>
+        <item> Saat Avengers dan sekutu mereka terus melindungi dunia dari ancaman yang terlalu besar untuk ditangani oleh satu pahlawan, bahaya baru telah muncul dari bayang-bayang kosmik: Thanos. Seorang lalim penghinaan intergalaksi, tujuannya adalah untuk mengumpulkan semua enam Batu Infinity, artefak kekuatan tak terbayangkan, dan menggunakannya untuk menimbulkan keinginannya yang terpelintir pada semua kenyataan. Segala sesuatu yang Avengers telah perjuangkan telah mengarah ke saat ini - nasib Bumi dan keberadaannya sendiri tidak pernah lebih tidak pasti. </item>
+        <item> Lima tahun setelah kehadiran tak terlihat yang tidak menyenangkan mendorong sebagian besar masyarakat untuk bunuh diri, seorang yang selamat dan dua anaknya melakukan upaya putus asa untuk mencapai keselamatan. </item>
+        <item> Penyanyi Freddie Mercury, gitaris Brian May, drummer Roger Taylor dan gitaris John Deacon mengambil dunia musik dengan badai ketika mereka membentuk band rock n roll Queen pada tahun 1970. Lagu-lagu hit menjadi klasik instan. Ketika gaya hidup Mercurys yang semakin liar mulai lepas kendali, Queen segera menghadapi tantangan terbesarnya - menemukan cara untuk menjaga band tetap bersama di tengah kesuksesan dan kelebihan. </item>
+        <item> Dalam pelarian pada tahun 1987, Bumblebee menemukan perlindungan di tempat barang rongsokan di kota pantai kecil California. Charlie, di puncak usia 18 dan berusaha menemukan tempatnya di dunia, menemukan Bumblebee, bekas luka pertempuran dan patah. Ketika Charlie membangkitkannya, dia dengan cepat mengetahui bahwa ini bukan bug VW kuning biasa. </item>
+        <item> Antara kewajiban pribadi dan pelatihan untuk pertarungan besar berikutnya melawan lawan yang memiliki ikatan dengan masa lalu keluarganya, Adonis Creed menghadapi tantangan hidupnya. </item>
+        <item> Fred Savage yang diculik dipaksa untuk menahan Deadpools PG-13 membawakan Deadpool 2 sebagai kisah Putri Pengantin yang penuh keajaiban, keajaiban, dan nol Fs. </item>
+        <item> Saat Hiccup memenuhi mimpinya untuk menciptakan utopia naga yang damai, penemuan Toothless tentang pasangan yang liar dan sulit ditangkap menarik Night Fury pergi. Saat bahaya memuncak di rumah dan pemerintahan Hiccup sebagai kepala desa diuji, baik naga dan pengendara harus membuat keputusan yang mustahil untuk menyelamatkan jenis mereka. </item>
+        <item> Bumi damai setelah Turnamen Kekuasaan. Menyadari bahwa alam semesta masih memiliki banyak orang yang lebih kuat untuk dilihat, Goku menghabiskan seluruh hari pelatihannya untuk mencapai ketinggian yang lebih besar. Kemudian suatu hari, Goku dan Vegeta dihadapkan pada seorang Saiyan bernama Broly yang belum pernah mereka lihat sebelumnya. Orang-orang Saiyan seharusnya hampir sepenuhnya musnah dalam kehancuran Planet Vegeta, jadi apa yang dilakukan orang ini di Bumi? Pertemuan antara ketiga Saiyan yang telah mengikuti takdir yang sama sekali berbeda ini berubah menjadi pertempuran yang luar biasa, dengan bahkan Frieza (kembali dari Neraka) terperangkap dalam campuran. </item>
+        <item> Dalam serangkaian pertemuan yang meningkat, mantan penjaga keamanan David Dunn menggunakan kemampuan supernaturalnya untuk melacak Kevin Wendell Crumb, seorang lelaki terganggu yang memiliki dua puluh empat kepribadian. Sementara itu, kehadiran bayangan Elia Price muncul sebagai seorang orkestra yang menyimpan rahasia penting bagi keduanya. </item>
+        <item> Kapten Glass dari USS Arkansas menemukan bahwa kudeta sedang terjadi di Rusia, jadi ia dan krunya bergabung dengan kelompok elit yang bekerja di tanah untuk mencegah perang. </item>
+        <item> Di era Depresi London, seorang Jane dan Michael Banks yang sudah dewasa, bersama dengan Michaels, tiga anak, dikunjungi oleh Mary Poppins yang penuh teka-teki setelah kehilangan pribadi. Melalui keterampilan sihirnya yang unik, dan dengan bantuan temannya Jack, dia membantu keluarga menemukan kembali kegembiraan dan keajaiban yang hilang dalam hidup mereka. </item>
+        <item> Beribu-ribu tahun di masa depan, kota-kota di bumi menjelajah dunia dengan roda besar, saling melahap dalam perjuangan untuk sumber daya yang semakin berkurang. Di salah satu kota traksi besar ini, London tua, Tom Natsworthy mengalami perjumpaan tak terduga dengan seorang wanita muda misterius dari daerah terlantar yang akan mengubah jalan hidupnya selamanya. </item>
+        <item> Kami tidak memiliki tinjauan yang diterjemahkan dalam bahasa Inggris. Bantu kami memperluas basis data kami dengan menambahkan satu. </item>
+        <item> Tentara Salib yang mengeras perang dan komandan Moornya melancarkan pemberontakan yang berani melawan mahkota Inggris yang korup. </item>
+        <item> Miles Morales menyulap hidupnya antara menjadi siswa sekolah menengah dan menjadi manusia laba-laba. Saat Wilson "Kingpin" Fisk menggunakan collider super, yang lain dari seluruh Spider-Verse diangkut ke dimensi ini. </item>
+        <item> Di Stockholm, Swedia, peretas Lisbeth Salander disewa oleh Frans Balder, seorang insinyur komputer, untuk mengambil sebuah program yang menurutnya terlalu berbahaya untuk ada. </item>
+        <item> Earl Stone, seorang pria berusia 80-an, bangkrut, sendirian, dan menghadapi penyitaan bisnisnya ketika ia ditawari pekerjaan yang hanya mengharuskannya mengemudi. Cukup mudah, tetapi, tanpa diketahui Earl, dia baru saja mendaftar sebagai kurir narkoba untuk kartel Meksiko. Dia melakukannya dengan sangat baik sehingga muatannya meningkat secara eksponensial, dan Earl menabrak radar agen DEA pengisian keras Colin Bates. </item>
+        <item> Wartawan investigasi Eddie Brock mencoba kembali setelah skandal, tetapi secara tidak sengaja menjadi tuan rumah Venom, seorang simbiot alien yang sangat kuat dan sakti. Segera, ia harus mengandalkan kekuatan barunya untuk melindungi dunia dari organisasi bayangan yang mencari simbiosis mereka sendiri. </item>
+    </string-array>
+
+    <string-array name="director">
+        <item>James Wan</item>
+        <item>Bradley Cooper</item>
+        <item>Joe Russo and Anthony Russo</item>
+        <item>Susanne Bier</item>
+        <item>Bryan Singer</item>
+        <item>Travis Knight</item>
+        <item>Steven Caple Jr.</item>
+        <item>David Leitch</item>
+        <item>Dean DeBlois</item>
+        <item>Tatsuya Nagamine</item>
+        <item>M. Night Shyamalan</item>
+        <item>Donovan Marsh</item>
+        <item>Rob Marshall</item>
+        <item>Christian Rivers</item>
+        <item>Aris Nugraha</item>
+        <item>Otto Bathurst</item>
+        <item>Rodney Rothman</item>
+        <item>Fede Alvarez</item>
+        <item>Clint Eastwood</item>
+        <item>Ruben Fleischer</item>
+    </string-array>
+
+    <string-array name="Top">
+        <item>Jason Momoa, Amber Heard, Willem Dafoe</item>
+        <item>Bradley Cooper, Sam Elliott, Andrew Dice Clay</item>
+        <item>Robert Downey Jr, Chris Hemsworth, Chris Evans</item>
+        <item>Trevante Rhodes, John Malkovich, Sarah Paulson</item>
+        <item>Gwilym Lee, Ben Hardy, Joseph Mazzello</item>
+        <item>Jorge Lendeborg Jr., John Cena, Jason Ian Drucker</item>
+        <item>Michael B. Jordan, Sylvester Stallone, Dolph Lundgren</item>
+        <item>Ryan Reynolds, Fred Savage, Josh Brolin</item>
+        <item>Jay Baruchel, America Ferrera, F. Murray Abraham</item>
+        <item>Masako Nozawa, Ryou Horikawa, Bin Shimada</item>
+        <item>James McAvoy, Bruce Willis, Samuel L. Jackson</item>
+        <item>Gerard Butler, Gary Oldman, Toby Stephens</item>
+        <item>Emily Blunt, Lin-Manuel Miranda, Ben Whishaw</item>
+        <item>Hera Hilmar, Robert Sheehan, Hugo Weaving</item>
+        <item>Epy Kusnandar, Tya Arifin, Soraya Rasyid</item>
+        <item>Taron Egerton, Jamie Foxx, Ben Mendelsohn</item>
+        <item>Shameik Moore, Jake Johnson, Hailee Steinfeld</item>
+        <item>Claire Foy, Sverrir Gudnason, Lakeith Stanfield</item>
+        <item>Clint Eastwood, Bradley Cooper, Laurence Fishburne</item>
+        <item>Tom Hardy, Michelle Williams, Riz Ahmed</item>
+    </string-array>
+
+    <array name="photo">
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_a_star</item>
+        <item>@drawable/poster_avengerinfinity</item>
+        <item>@drawable/poster_birdbox</item>
+        <item>@drawable/poster_bohemian</item>
+        <item>@drawable/poster_bumblebee</item>
+        <item>@drawable/poster_creed</item>
+        <item>@drawable/poster_deadpool</item>
+        <item>@drawable/poster_dragon</item>
+        <item>@drawable/poster_dragonball</item>
+        <item>@drawable/poster_glass</item>
+        <item>@drawable/poster_hunterkiller</item>
+        <item>@drawable/poster_marrypopins</item>
+        <item>@drawable/poster_mortalengine</item>
+        <item>@drawable/poster_preman</item>
+        <item>@drawable/poster_robinhood</item>
+        <item>@drawable/poster_spiderman</item>
+        <item>@drawable/poster_thegirl</item>
+        <item>@drawable/poster_themule</item>
+        <item>@drawable/poster_venom</item>
+    </array>
+
+    <!--TV Show-->
+    <string-array name="JudulTv">
+        <item>Arrow</item>
+        <item>Doom Patrol</item>
+        <item>Dragon Ball</item>
+        <item>Fairy Tail</item>
+        <item>Family Guy</item>
+        <item>The Flash</item>
+        <item>Game of Thrones</item>
+        <item>Gotham</item>
+        <item>Greys Anathomy</item>
+        <item>Hanna</item>
+        <item>Marvels Iron Fist</item>
+        <item>Naruto Shippuden</item>
+        <item>NCIS</item>
+        <item>Riverdale</item>
+        <item>Shameless</item>
+        <item>Supergirl</item>
+        <item>Supernatural</item>
+        <item>The Simpsons</item>
+        <item>The Umbrella Academy</item>
+        <item>The Walking Dead</item>
+    </string-array>
+
+    <string-array name="GenreTv">
+                
+        <item> Petualangan </item>
+                
+        <item> Petualangan Aksi </item>
+                
+        <item> Petualangan </item>
+                
+        <item> Pertandingan petualangan </item>
+                
+        <item> Komedi </item>
+                
+        <item> Aksi pahlawan super </item>
+                
+        <item> Adventure Thriller </item>
+                
+        <item> Fiksi Aksi </item>
+                
+        <item> Drama Komedi </item>
+                
+        <item> Drama Aksi </item>
+                
+        <item> Fiksi aksi </item>
+                
+        <item> Petualangan kartun </item>
+                
+        <item> Kriminal </item>
+                
+        <item> Drama misteri </item>
+                
+        <item> Drama komedi </item>
+                
+        <item> Fiksi superhero </item>
+                
+        <item> Romantis Paranormal </item>
+                
+        <item> Kartun Komedi </item>
+                
+        <item> Drama Aksi </item>
+                
+        <item> Fiksi Sereal </item>
+            
+    </string-array>
+
+    <string-array name="dateTv">
+                
+        <item> 10 Oktober 2012 </item>
+                
+        <item> 15 Februari 2019 </item>
+                
+        <item> 26 Februari 1986 </item>
+                
+        <item> 12 Oktober 2009 </item>
+                
+        <item> 31 Januari 1999 </item>
+                
+        <item> 7 Oktober 2014 </item>
+                
+        <item> 17 April 2011 </item>
+                
+        <item> 22 September 2014 </item>
+                
+        <item> 27 Maret 2005 </item>
+                
+        <item> 28 Maret 2019 </item>
+                
+        <item> 17 Maret 2017 </item>
+                
+        <item> 15 Februari 2007 </item>
+                
+        <item> 23 September 2003 </item>
+                
+        <item> 26 Januari 2017 </item>
+                
+        <item> 9 Januari 2011 </item>
+                
+        <item> 26 Oktober 2015 </item>
+                
+        <item> 13 September 2005 </item>
+                
+        <item> 17 Desember 1989 </item>
+                
+        <item> 15 Februari 2019 </item>
+                
+        <item> 31 Oktober 2010 </item>
+            
+    </string-array>
+
+    <string-array name="rateTv">
+        <item>58</item>
+        <item>61</item>
+        <item>71</item>
+        <item>64</item>
+        <item>65</item>
+        <item>67</item>
+        <item>81</item>
+        <item>69</item>
+        <item>62</item>
+        <item>64</item>
+        <item>61</item>
+        <item>75</item>
+        <item>67</item>
+        <item>69</item>
+        <item>78</item>
+        <item>58</item>
+        <item>73</item>
+        <item>71</item>
+        <item>77</item>
+        <item>73</item>
+    </string-array>
+    <string-array name="directorTv">
+        <item>Greg Berlanti</item>
+        <item>Jeremy Carver</item>
+        <item>Akira Toriyama</item>
+        <item>Hiro Mashima</item>
+        <item>Seth MacFarlane</item>
+        <item>Geoff Johns</item>
+        <item>David Benioff</item>
+        <item>Bruno Heller</item>
+        <item>Shonda Rhimes</item>
+        <item>David Farr</item>
+        <item>Scott Buck</item>
+        <item>Masashi Kishimoto</item>
+        <item>Don McGill</item>
+        <item>Roberto Aguirre-Sacasa</item>
+        <item>Paul Abbott</item>
+        <item>Greg Berlanti</item>
+        <item>Eric Kripke</item>
+        <item>Matt Groening</item>
+        <item>Steve Blackman</item>
+        <item>Frank Darabont</item>
+    </string-array>
+    <string-array name="topTv">
+        <item>Stephen Amell, Emily Bett Rickards, David Ramsey</item>
+        <item>Timothy Dalton, Matt Bomer, Brendan Fraser</item>
+        <item>Masako Nozawa, Mayumi Tanaka, Hiromi Tsuru</item>
+        <item>Tetsuya Kakihara, Aya Hirano, Rie Kugimiya</item>
+        <item>Seth MacFarlane, Alex Borstein, Mila Kunis</item>
+        <item>Grant Gustin, Candice Patton, Carlos Valdes</item>
+        <item>Emilia Clarke, Kit Harington, Peter Dinklage</item>
+        <item>Ben McKenzie, Donal Logue, David Mazouz</item>
+        <item>Ellen Pompeo, Justin Chambers, James Pickens Jr.</item>
+        <item>Esme Creed-Miles, Joel Kinnaman, Mireille Enos</item>
+        <item>Finn Jones, Jessica Henwick, Jessica Stroup</item>
+        <item>Junko Takeuchi, Chie Nakamura, Kazuhiko Inoue</item>
+        <item>David McCallum, Brian Dietzen, Sean Murray</item>
+        <item>K.J. Apa, Camila Mendes, Lili Reinhart</item>
+        <item>Emmy Rossum, William H. Macy, Ethan Cutkosky</item>
+        <item>Melissa Benoist, Chyler Leigh, David Harewood</item>
+        <item>Jensen Ackles, Jared Padalecki, Misha Collins</item>
+        <item>Dan Castellaneta, Julie Kavner, Nancy Cartwright</item>
+        <item>Aidan Gallagher, Ellen Page, Tom Hopper</item>
+        <item>Andrew Lincoln, Norman Reedus, Danai Gurira</item>
+    </string-array>
+
+    <string-array name="sinopsisTv">
+        <item> Dulunya merupakan rumah bagi peradaban paling maju di Bumi, Atlantis sekarang merupakan kerajaan bawah laut yang diperintah oleh Raja Orm yang haus kekuasaan. Dengan pasukan yang sangat besar, Orm berencana untuk menaklukkan orang-orang samudera yang tersisa dan kemudian ke permukaan dunia. Yang menghalangi jalannya adalah Arthur Curry, lelaki setengah manusia Orms, setengah lelaki Atlantis dan pewaris sejati takhta. </item>
+        <item> Musisi kawakan Jackson Maine menemukan - dan jatuh cinta dengan - artis yang sedang berjuang Ally. Dia baru saja menyerah pada mimpinya untuk menjadi besar sebagai penyanyi - sampai Jack membujuknya menjadi sorotan. Tetapi bahkan ketika karier Allys lepas landas, sisi pribadi dari hubungan mereka hancur, karena Jack berjuang terus-menerus dengan setan internalnya sendiri. </item>
+        <item> Saat Avengers dan sekutu mereka terus melindungi dunia dari ancaman yang terlalu besar untuk ditangani oleh satu pahlawan, bahaya baru telah muncul dari bayang-bayang kosmik: Thanos. Seorang lalim penghinaan intergalaksi, tujuannya adalah untuk mengumpulkan semua enam Batu Infinity, artefak kekuatan tak terbayangkan, dan menggunakannya untuk menimbulkan keinginannya yang terpelintir pada semua kenyataan. Segala sesuatu yang Avengers telah perjuangkan telah mengarah ke saat ini - nasib Bumi dan keberadaannya sendiri tidak pernah lebih tidak pasti. </item>
+        <item> Lima tahun setelah kehadiran tak terlihat yang tidak menyenangkan mendorong sebagian besar masyarakat untuk bunuh diri, seorang yang selamat dan dua anaknya melakukan upaya putus asa untuk mencapai keselamatan. </item>
+        <item> Penyanyi Freddie Mercury, gitaris Brian May, drummer Roger Taylor dan gitaris John Deacon mengambil dunia musik dengan badai ketika mereka membentuk band rock n roll Queen pada tahun 1970. Lagu-lagu hit menjadi klasik instan. Ketika gaya hidup Mercurys yang semakin liar mulai lepas kendali, Queen segera menghadapi tantangan terbesarnya - menemukan cara untuk menjaga band tetap bersama di tengah kesuksesan dan kelebihan. </item>
+        <item> Dalam pelarian pada tahun 1987, Bumblebee menemukan perlindungan di tempat barang rongsokan di kota pantai kecil California. Charlie, di puncak usia 18 dan berusaha menemukan tempatnya di dunia, menemukan Bumblebee, bekas luka pertempuran dan patah. Ketika Charlie membangkitkannya, dia dengan cepat mengetahui bahwa ini bukan bug VW kuning biasa. </item>
+        <item> Antara kewajiban pribadi dan pelatihan untuk pertarungan besar berikutnya melawan lawan yang memiliki ikatan dengan masa lalu keluarganya, Adonis Creed menghadapi tantangan hidupnya. </item>
+        <item> Fred Savage yang diculik dipaksa untuk menahan Deadpools PG-13 membawakan Deadpool 2 sebagai kisah Putri Pengantin yang penuh keajaiban, keajaiban, dan nol Fs. </item>
+        <item> Saat Hiccup memenuhi mimpinya untuk menciptakan utopia naga yang damai, penemuan Toothless tentang pasangan yang liar dan sulit ditangkap menarik Night Fury pergi. Saat bahaya memuncak di rumah dan pemerintahan Hiccup sebagai kepala desa diuji, baik naga dan pengendara harus membuat keputusan yang mustahil untuk menyelamatkan jenis mereka. </item>
+        <item> Bumi damai setelah Turnamen Kekuasaan. Menyadari bahwa alam semesta masih memiliki banyak orang yang lebih kuat untuk dilihat, Goku menghabiskan seluruh hari pelatihannya untuk mencapai ketinggian yang lebih besar. Kemudian suatu hari, Goku dan Vegeta dihadapkan pada seorang Saiyan bernama Broly yang belum pernah mereka lihat sebelumnya. Orang-orang Saiyan seharusnya hampir sepenuhnya musnah dalam kehancuran Planet Vegeta, jadi apa yang dilakukan orang ini di Bumi? Pertemuan antara ketiga Saiyan yang telah mengikuti takdir yang sama sekali berbeda ini berubah menjadi pertempuran yang luar biasa, dengan bahkan Frieza (kembali dari Neraka) terperangkap dalam campuran. </item>
+        <item> Dalam serangkaian pertemuan yang meningkat, mantan penjaga keamanan David Dunn menggunakan kemampuan supernaturalnya untuk melacak Kevin Wendell Crumb, seorang lelaki terganggu yang memiliki dua puluh empat kepribadian. Sementara itu, kehadiran bayangan Elia Price muncul sebagai seorang orkestra yang menyimpan rahasia penting bagi keduanya. </item><item>Captain Glass of the USS Arkansas discovers that a coup détat is taking place in Russia, so he and his crew join an elite group working on the ground to prevent a war.</item>
+        <item> Di era Depresi London, seorang Jane dan Michael Banks yang sudah dewasa, bersama dengan Michaels, tiga anak, dikunjungi oleh Mary Poppins yang penuh teka-teki setelah kehilangan pribadi. Melalui keterampilan sihirnya yang unik, dan dengan bantuan temannya Jack, dia membantu keluarga menemukan kembali kegembiraan dan keajaiban yang hilang dalam hidup mereka. </item>
+        <item> Beribu-ribu tahun di masa depan, kota-kota di bumi menjelajah dunia dengan roda besar, saling melahap dalam perjuangan untuk sumber daya yang semakin berkurang. Di salah satu kota traksi besar ini, London tua, Tom Natsworthy mengalami perjumpaan tak terduga dengan seorang wanita muda misterius dari daerah terlantar yang akan mengubah jalan hidupnya selamanya. </item>
+        <item> Kami tidak memiliki tinjauan yang diterjemahkan dalam bahasa Inggris. Bantu kami memperluas basis data kami dengan menambahkan satu. </item>
+        <item> Tentara Salib yang mengeras perang dan komandan Moornya melancarkan pemberontakan yang berani melawan mahkota Inggris yang korup. </item>
+        <item> Miles Morales menyulap hidupnya antara menjadi siswa sekolah menengah dan menjadi manusia laba-laba. Saat Wilson "Kingpin" Fisk menggunakan collider super, yang lain dari seluruh Spider-Verse diangkut ke dimensi ini. </item>
+        <item> Di Stockholm, Swedia, peretas Lisbeth Salander disewa oleh Frans Balder, seorang insinyur komputer, untuk mengambil sebuah program yang menurutnya terlalu berbahaya untuk ada. </item>
+        <item> Earl Stone, seorang pria berusia 80-an, bangkrut, sendirian, dan menghadapi penyitaan bisnisnya ketika ia ditawari pekerjaan yang hanya mengharuskannya mengemudi. Cukup mudah, tetapi, tanpa diketahui Earl, dia baru saja mendaftar sebagai kurir narkoba untuk kartel Meksiko. Dia melakukannya dengan sangat baik sehingga muatannya meningkat secara eksponensial, dan Earl menabrak radar agen DEA pengisian keras Colin Bates. </item>
+        <item> Wartawan investigasi Eddie Brock mencoba kembali setelah skandal, tetapi secara tidak sengaja menjadi tuan rumah Venom, seorang simbiot alien yang sangat kuat dan sakti. Segera, ia harus mengandalkan kekuatan barunya untuk melindungi dunia dari organisasi bayangan yang mencari simbiosis mereka sendiri. </item>
+    </string-array>
+
+    <array name="posterTvShow">
+        <item>@drawable/poster_arrow</item>
+        <item>@drawable/poster_doom_patrol</item>
+        <item>@drawable/poster_dragon_ball</item>
+        <item>@drawable/poster_fairytail</item>
+        <item>@drawable/poster_family_guy</item>
+        <item>@drawable/poster_flash</item>
+        <item>@drawable/poster_god</item>
+        <item>@drawable/poster_gotham</item>
+        <item>@drawable/poster_grey_anatomy</item>
+        <item>@drawable/poster_hanna</item>
+        <item>@drawable/poster_iron_fist</item>
+        <item>@drawable/poster_naruto_shipudden</item>
+        <item>@drawable/poster_ncis</item>
+        <item>@drawable/poster_riverdale</item>
+        <item>@drawable/poster_shameless</item>
+        <item>@drawable/poster_supergirl</item>
+        <item>@drawable/poster_supernatural</item>
+        <item>@drawable/poster_the_simpson</item>
+        <item>@drawable/poster_the_umbrella</item>
+        <item>@drawable/poster_the_walking_dead</item>
+    </array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ubah_bahasa">Ubah bahasa</string>
+    <string name="textview">TextView</string>
+</resources>
